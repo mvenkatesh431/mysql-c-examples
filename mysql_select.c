@@ -16,7 +16,7 @@ int main(int argc, char const *argv[]) {
   }
 
   // We are going to use database cprogram and create the table,
-  if( mysql_real_connect(conn, "localhost", "root", "telastic2010", "cprogram", 0, NULL, 0) == NULL) {
+  if( mysql_real_connect(conn, "localhost", "root", "password", "cprogram", 0, NULL, 0) == NULL) {
     error(conn);
   }
 
