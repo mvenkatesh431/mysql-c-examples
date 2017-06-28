@@ -5,12 +5,15 @@ Connecting and querying the mysql server using c programs
 sudo apt-get install libmysqlclient-dev
 
 # Compiling the program 
-Create the program using your favorite editor
+Create the program using your favorite editor 
+
 `vim mysql_insert.c `
 
-Compiling the program
-`gcc mysql_insert.c -o mysql_insert  `mysql_config --cflags --libs` `
+Compiling the program 
+
+``gcc mysql_insert.c -o mysql_insert  `mysql_config --cflags --libs` ``
 
 Running the program
+
 `./mysql_insert`
 
