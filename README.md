@@ -7,8 +7,10 @@ sudo apt-get install libmysqlclient-dev
 # Compiling the program 
 Create the program using your favorite editor
 `vim mysql_insert.c `
-compiling the program
-gcc mysql_insert.c -o mysql_insert  `mysql_config --cflags --libs` 
-running the program
+
+Compiling the program
+`gcc mysql_insert.c -o mysql_insert  `mysql_config --cflags --libs` `
+
+Running the program
 `./mysql_insert`
 
