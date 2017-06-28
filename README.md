@@ -1,13 +1,13 @@
 # mysql-c-examples
 Connecting and querying the mysql server using c programs
 
-# Install the following library :
-sudo apt-get install libmysqlclient-dev
+** Install the following library : **
+``sudo apt-get install libmysqlclient-dev``
 
-# Compiling the program 
+** Compiling and Running the program **
 Create the program using your favorite editor 
 
-`vim mysql_insert.c `
+``vim mysql_insert.c ``
 
 Compiling the program 
 
@@ -15,5 +15,5 @@ Compiling the program
 
 Running the program
 
-`./mysql_insert`
+``./mysql_insert``
 
